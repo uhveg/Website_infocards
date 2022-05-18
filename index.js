@@ -1,6 +1,6 @@
 var item = document.getElementById("contain");
 
-fetch("static/list_jobs.json")
+fetch("https://github.com/uhveg/Website_infocards/blob/master/static/list_jobs.json")
 .then(response => {
     return response.json();
 })
